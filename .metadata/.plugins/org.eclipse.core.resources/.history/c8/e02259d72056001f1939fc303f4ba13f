@@ -1,0 +1,15 @@
+package com.hba.response;
+
+import java.math.BigDecimal;
+import java.util.List;
+
+public class BookedRoomResponse {
+	
+	private Long id;
+	private String roomType;
+	private BigDecimal roomPrice;
+	private Boolean isBooked;
+	private String photo;
+	private List<BookingResponse>bookings;
+	
+}

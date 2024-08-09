@@ -1,0 +1,5 @@
+package com.hba.response;
+
+public class RoomResponse {
+
+}
